@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Clean tintable annular ring fill between inner and outer bounds -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M60,13A47,47 0,1,0 60,107A47,47 0,1,0 60,13M60,27A33,33 0,1,1 60,93A33,33 0,1,1 60,27Z"/>
+</vector>

@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer Camera Deco Ring -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M60,10A50,50 0,1,0 60,110A50,50 0,1,0 60,10M60,24A36,36 0,1,1 60,96A36,36 0,1,1 60,24Z"/>
+    <!-- Inner Lens Aperture Circle -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M60,42A18,18 0,1,0 60,78A18,18 0,1,0 60,42M60,48A12,12 0,1,1 60,72A12,12 0,1,1 60,48Z"/>
+</vector>

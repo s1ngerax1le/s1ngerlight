@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Thin, crisp dark borders for the ring (Zero heavy background disc) -->
+    <!-- Outer boundary -->
+    <path
+        android:strokeColor="#262A30"
+        android:strokeWidth="2.0"
+        android:pathData="M60,12A48,48 0,1,0 60,108A48,48 0,1,0 60,12Z"/>
+    <!-- Inner boundary -->
+    <path
+        android:strokeColor="#262A30"
+        android:strokeWidth="2.0"
+        android:pathData="M60,26A34,34 0,1,0 60,94A34,34 0,1,0 60,26Z"/>
+</vector>

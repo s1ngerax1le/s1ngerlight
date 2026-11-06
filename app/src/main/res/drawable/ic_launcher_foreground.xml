@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Outer Halo Ring: radius 19, stroke 5, centered at (54,54) -> max radius 21.5dp, strictly within 33dp safe zone -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="5.0"
+            android:strokeLineCap="round"
+            android:pathData="M 54,35 A 19,19 0 1,1 40,40"/>
+        <!-- Inner Deco Light Core -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 54,46 A 8,8 0 1,0 54,62 A 8,8 0 1,0 54,46 Z"/>
+        <!-- Radiant Accent Dot -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 40,36 A 3,3 0 1,0 40,42 A 3,3 0 1,0 40,36 Z"/>
+    </group>
+</vector>
